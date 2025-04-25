@@ -9,12 +9,11 @@ En este documento explico paso a paso cómo creé mi cuenta en la plataforma de 
 
 ## 🔑 Requisitos necesarios
 
-Antes de comenzar, me aseguré de tener lo siguiente:
-
-🗹 Una cuenta activa en [GitHub](https://github.com/) con acceso a mi repositorio [Pokedex](https://github.com/LuisDTech/Pokedex).
-🗹 Conexión a Internet estable.
-🗹 Navegador actualizado (Google Chrome y Brave).
-🗹 Proyecto Angular ya construido localmente y listo para subir a GitHub.
+Antes de comenzar, me aseguré de tener lo siguiente: <br>
+🗹 Una cuenta activa en [GitHub](https://github.com/) con acceso a mi repositorio [Pokedex](https://github.com/LuisDTech/Pokedex).<br>
+🗹 Conexión a Internet estable.<br>
+🗹 Navegador actualizado (Google Chrome y Brave).<br>
+🗹 Proyecto Angular ya construido localmente y listo para subir a GitHub.<br>
 
 ---
 

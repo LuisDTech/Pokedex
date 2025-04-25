@@ -1,36 +1,50 @@
-# Pokédex Angular
+# Registro y configuración de una cuenta en Vercel para realizar el despliegue
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![codecov](https://codecov.io/gh/keilermora/pokedex-angular/branch/master/graph/badge.svg?token=9E0D28IOFT)](https://codecov.io/gh/keilermora/pokedex-angular)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+## 💻 Descripción
 
-[https://keilermora.github.io/pokedex-angular/](https://keilermora.github.io/pokedex-angular/)
+En este documento explico paso a paso cómo creé mi cuenta en la plataforma de nube pública **Vercel**, la cual utilicé para desplegar mi aplicación web **PokeDex**, la cual fue desarrollada con Angular. Todo el proceso fue realizado personalmente y aquí detallo cada paso seguido para lograr un exitoso despliegue.
 
-La aplicación muestra el listado y el detalle de los Pokémon de las primeras 3 generaciones.
 
-La imagen que representa un Pokémon en el listado muestra las variaciones que estos tuvieron durante las primeras versiones, desde la versión Green (1996) hasta la version Emerald (2005).
+----
 
-Los detalles de un Pokémon individual muestra sus estadísticas base y los registros de la Pokédex de las diferentes versiones.
+## 🔑 Requisitos necesarios
 
-El proyecto fue desarrollado usando la librería de JavaScript [Angular](https://angular.io/) para crear la interfaz de usuario, en comunicación con la Api RESTful [PokéAPI](https://pokeapi.co/).
+Antes de comenzar, me aseguré de tener lo siguiente:
 
-## Requisitos mínimos
+🗹 Una cuenta activa en [GitHub](https://github.com/) con acceso a mi repositorio [Pokedex](https://github.com/LuisDTech/Pokedex).
+🗹 Conexión a Internet estable.
+🗹 Navegador actualizado (Google Chrome y Brave).
+🗹 Proyecto Angular ya construido localmente y listo para subir a GitHub.
 
-- [Nodejs](https://nodejs.org) con soporte de largo plazo (LTS).
-- Un navegador web
+---
 
-## Ambiente de pruebas
+## 📋 Pasos para la creación de la cuenta en Vercel
 
-Ejecutar en la raíz del proyecto:
 
-```
-npm start
-```
+### 1. Ingresé a Vercel
+Accedí al sitio oficial: [https://vercel.com](https://vercel.com). En la página principal, hice clic en **"Continue with GitHub"** para iniciar sesión con mi cuenta de GitHub.
 
-## Referencias
+### 2. Autoricé el acceso desde GitHub
+Se abrió una ventana donde GitHub me pidió autorizar el acceso de Vercel a mis repositorios. Revisé los permisos y acepté. Elegí que Vercel tuviera acceso a todos mis repositorios.
 
-- [Angular](https://angular.io/): One framework.
-- [Angular Folder Structure](https://angular-folder-structure.readthedocs.io/en/latest/): Create a skeleton structure which is flexible for projects big or small.
-- [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
-- [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
-- [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
+### 3. Configuré mi cuenta en Vercel
+Después de autorizar, Vercel me preguntó si quería trabajar con una cuenta personal o en equipo. Seleccioné la opción **personal** y le puse un nombre a mi perfil. Elegí el plan gratuito llamado **Hobby Plan**, el cual es suficiente para el tipo de proyectos que realizo actualmente.
+
+### 4. Seleccioné el repositorio Pokedex
+Vercel escaneó mis repositorios y me permitió seleccionar cuál quería importar. Elegí el repositorio [Pokedex](https://github.com/LuisDTech/Pokedex), donde ya tenía cargado todo el código fuente del proyecto.
+
+### 5. Finalicé la configuración
+Una vez hecho todo lo anterior, Vercel me redirigió a mi panel principal. Desde ahí ya podía iniciar el proceso de despliegue de mi app directamente desde GitHub [Pokedex](https://pokedex-chi-ashen.vercel.app/).
+
+---
+
+## 🔐 Buenas prácticas de seguridad
+
+-  Activé la autenticación en dos pasos (2FA) en mi cuenta de GitHub.
+- Verifiqué los accesos y permisos desde el dashboard de GitHub y Vercel.
+---
+
+## 📚 Recursos adicionales
+
+- Documentación oficial de Vercel: [https://vercel.com/docs](https://vercel.com/docs)
+- Estado del sistema: [https://www.vercel-status.com](https://www.vercel-status.com)

@@ -234,12 +234,35 @@ git push origin main
 
 ---
 
-## 📌 Resumen de Comandos Clave
+## 📌 Resumen de los comandos clave 
 
-|           Acción             |                Comandos                     |
-|------------------------------|---------------------------------------------|
-| Instalar Angular CLI         | `npm install -g @angular/cli`               |
-| Instalar dependencias        | `npm install`                               |
-| Ejecutar servidor local      | `npm start`                                 |
-| Compilar para producción     | `npm run build`                             |
+|                  Acción                   |                        Comando                       |                                         Descripción                                                     |
+|-------------------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Instalar Angular CLI                      | `npm install -g @angular/cli`                        | Instala Angular CLI de forma global para usarlo en cualquier proyecto Angular desde la terminal.        |
+| Crear nuevo proyecto Angular              | `ng new nombre-proyecto`                             | Crea un nuevo proyecto Angular con la estructura básica.                                                |
+| Ingresar a la carpeta del proyecto        | `cd nombre-proyecto`                                 | Entra al directorio raíz del proyecto para trabajar desde allí.                                         |
+| Instalar dependencias                     | `npm install`                                        | Instala todas las dependencias necesarias definidas en `package.json`.                                  |
+| Ejecutar servidor de desarrollo           | `npm start`                                          | Inicia el servidor de desarrollo en `http://localhost:4200/`.                                           |
+| Compilar la aplicación para producción    | `npm run build`                                      | Genera una versión optimizada del proyecto en la carpeta `dist/`.                                       |
+| Ejecutar pruebas unitarias                | `ng test`                                            | Ejecuta las pruebas unitarias definidas en el proyecto con Karma.                                       |
+| Ejecutar pruebas end-to-end               | `ng e2e`                                             | Corre pruebas end-to-end usando Protractor.                                                             |
+| Verificar versión de Angular              | `ng version`                                         | Muestra la versión actual del CLI de Angular y de los paquetes instalados.                              |
+| Crear un componente                       | `ng generate component nombre-componente`            | Crea un nuevo componente con sus archivos asociados (`.ts`, `.html`, `.scss`, `.spec.ts`).              |
+| Crear un servicio                         | `ng generate service nombre-servicio`                | Genera un nuevo servicio Angular.                                                                       |
+| Inicializar repositorio Git               | `git init`                                           | Crea un repositorio Git local en la carpeta actual.                                                     |
+| Agregar archivos al área de staging       | `git add .`                                          | Añade todos los archivos del proyecto al área de preparación.                                           |
+| Realizar commit con mensaje               | `git commit -m "mensaje"`                            | Guarda los cambios en el repositorio local con un mensaje descriptivo.                                  |
+| Cambiar nombre a la rama principal        | `git branch -M main`                                 | Renombra la rama actual a `main`, como estándar moderno.                                                |
+| Crear repositorio remoto (GitHub)         | Desde GitHub                                         | Ve a GitHub y crea un nuevo repositorio vacío.                                                          |
+| Agregar repositorio remoto a Git          | `git remote add origin https://github.com/usuario/repositorio.git` | Conecta tu repositorio local con el remoto en GitHub.                                     |
+| Subir código al repositorio remoto        | `git push -u origin main`                            | Envía tu proyecto a GitHub y deja la rama `main` como principal.                                        |
+| Clonar repositorio desde GitHub           | `git clone https://github.com/usuario/repositorio.git` | Descarga un proyecto completo desde GitHub a tu equipo local.                                         |
+| Ver estado actual del repositorio         | `git status`                                         | Muestra los archivos modificados, sin seguimiento o pendientes de commit.                               |
+| Ver historial de commits                  | `git log`                                            | Muestra el historial de commits del repositorio.                                                        |
+| Crear una nueva rama                      | `git checkout -b nombre-rama`                        | Crea y se mueve a una nueva rama en Git.                                                                |
+| Cambiar a otra rama existente             | `git checkout nombre-rama`                           | Cambia de rama en el repositorio local.                                                                 |
+| Fusionar rama con `main`                  | `git merge nombre-rama`                              | Fusiona los cambios de una rama con la rama `main`.                                                     |
+| Descargar últimos cambios del remoto      | `git pull`                                           | Actualiza tu proyecto local con los últimos cambios del repositorio remoto.                             |
+| Subir cambios al repositorio remoto       | `git push`                                           | Sube los cambios que has hecho localmente al repositorio remoto.                                        |
+
 
